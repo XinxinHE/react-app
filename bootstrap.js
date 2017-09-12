@@ -1,5 +1,5 @@
 var open = require('open');
-const SERVER_PORT = process.env.SERVER_PORT || 8080;
+const SERVER_PORT = process.env.SERVER_PORT || 3000;
 
 /**********************************1**********************************/
 require('./node_modules/webpack-dev-server/bin/webpack-dev-server.js');

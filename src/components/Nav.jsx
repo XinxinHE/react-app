@@ -12,7 +12,7 @@ export default (props) => {
         <nav className="navbar navbar-default">
             <div className="container-fluid">
                 <div className="navbar-header">
-                    <a className="navbar-brand" href="http://yichizhang.us">Do Something Fun</a>
+                    <a className="navbar-brand" href="">Do Something Fun</a>
                 </div>
                 <ul className="nav navbar-nav">
                     <li className={videoActive}>

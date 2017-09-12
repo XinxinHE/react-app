@@ -1,5 +1,5 @@
 var path = require('path');
-const SERVER_PORT = process.env.SERVER_PORT || 8080;
+const SERVER_PORT = process.env.SERVER_PORT || 3000;
 
 module.exports = {
     entry: path.join(__dirname, 'src/index.jsx'),
@@ -22,7 +22,7 @@ module.exports = {
     devServer: {
         historyApiFallback: true,
         port: SERVER_PORT,
-        host: '127.0.0.1',
+        host: '0.0.0.0',
         colors: true,
         inline: true,
         contentBase: path.join(__dirname, 'public')     //content is served from
