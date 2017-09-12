@@ -1,6 +1,6 @@
 import axios from 'axios';
 var ROOT_URL = 'https://www.googleapis.com/youtube/v3/search';
-const API_KEY = '***YOUR_API_KEY***';
+const API_KEY = 'AIzaSyB517hVPYqp9_Pkq9zoDZgePj8mxRHQlNU';
 
 export const SELECT_VIDEO = 'SELECT_VIDEO';
 export const FETCH_VIDEOS = 'FETCH_VIDEOS';

@@ -22,7 +22,7 @@ module.exports = {
     devServer: {
         historyApiFallback: true,
         port: SERVER_PORT,
-        host: '0.0.0.0',
+        host: '127.0.0.1',
         colors: true,
         inline: true,
         contentBase: path.join(__dirname, 'public')     //content is served from
